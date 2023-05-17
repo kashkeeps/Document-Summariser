@@ -1,8 +1,8 @@
-import PyPDF2
 from flask import Flask, render_template, request
 import openai
 from config import OPENAI_API_KEY
 import io
+import PyPDF2
 
 # Set your OpenAI API key
 openai.api_key = OPENAI_API_KEY
@@ -44,29 +44,26 @@ def process():
     return render_template('result.html', text_content=text_content, summary=summary)
 
 
-def summarize_text(text):
-    # Set the parameters for the GPT-3 model
-    parameters = {
-        'model': 'text-davinci-003',  # Specify the GPT-3 model
-        'temperature': 0.3,
-        'max_tokens': 100,
-        'top_p': 1.0,
-        'frequency_penalty': 0.0,
-        'presence_penalty': 0.0
-    }
+def summarize_text(text_content):
+    # Reduce the length of text_content
+    shortened_text = text_content[:3000]  # Adjust the desired length
 
-    # Generate the summary using the GPT-3 model
+    # Make the API call with the shortened text
+    # print("Making API call with text:", shortened_text)  # Print the shortened text
     response = openai.Completion.create(
-        prompt=text,
-        **parameters
+        engine="text-davinci-002",
+        prompt=shortened_text,
+        max_tokens=500
     )
 
     # Extract the generated summary from the response
     summary = response.choices[0].text.strip()
 
+    # print("Generated summary:", summary)  # Print the generated summary
     return summary
 
 
+
 if __name__ == '__main__':
-    app.run(port=5000)
+    app.run(port=5001)
 
