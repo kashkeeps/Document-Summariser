@@ -73,6 +73,7 @@ Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000/)
 
 ## 📁 Project Structure
 
+```csharp
 document-summarizer/
 ├── app.py                 # Main Flask backend
 ├── templates/
@@ -81,6 +82,7 @@ document-summarizer/
 │   └── styles.css         # CSS styling (if added)
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project overview
+```
 
 ---
 
@@ -108,7 +110,7 @@ This project is part of my personal learning journey in:
 ## 🙋‍♀️ Made by
 
 Kashish Aggarwal
-Aspiring AI & Backend Developer
-[GitHub](https://github.com/kashkeeps) • [LinkedIn](https://www.linkedin.com/in/kashish-aggarwal-a389b7203/)
+- Aspiring AI & Backend Developer
+- [GitHub](https://github.com/kashkeeps) • [LinkedIn](https://www.linkedin.com/in/kashish-aggarwal-a389b7203/)
 
 
