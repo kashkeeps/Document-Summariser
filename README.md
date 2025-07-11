@@ -88,20 +88,20 @@ document-summarizer/
 
 This project is part of my personal learning journey in:
 
-🔹Integrating Generative AI into real-world apps
-🔹Understanding backend frameworks like Flask
-🔹Practicing API usage and UI logic
-🔹Exploring the capabilities of Gemini AI for NLP
+- 🔹Integrating Generative AI into real-world apps
+- 🔹Understanding backend frameworks like Flask
+- 🔹Practicing API usage and UI logic
+- 🔹Exploring the capabilities of Gemini AI for NLP
 
 ---
 
 ## 🔮 Future Enhancements
 
-📥 Upload support for .txt, .pdf, or .docx files
-🌍 Multi-language support
-💾 Option to save or download summaries
-🔐 Login system with summary history
-🌐 Deploy to Firebase or Render
+- 📥 Upload support for .txt, .pdf, or .docx files
+- 🌍 Multi-language support
+- 💾 Option to save or download summaries
+- 🔐 Login system with summary history
+- 🌐 Deploy to Firebase or Render
 
 ---
 
