@@ -111,7 +111,7 @@ This project is part of my personal learning journey in:
 ## 🙋‍♀️ Made by
 
 Kashish Aggarwal
-- Aspiring AI & Backend Developer
+- Aspiring Full Stack Developer
 - [GitHub](https://github.com/kashkeeps) • [LinkedIn](https://www.linkedin.com/in/kashish-aggarwal-a389b7203/)
 
 
