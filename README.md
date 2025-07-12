@@ -53,6 +53,7 @@
 
 ```
 3. **Add your Gemini API key**
+
 In app.py, configure the Gemini API:
 
 ```python
