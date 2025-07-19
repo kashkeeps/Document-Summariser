@@ -75,14 +75,21 @@ Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000/)
 ## 📁 Project Structure
 
 ```csharp
-document-summarizer/
-├── app.py                 # Main Flask backend
-├── templates/
-│   └── index.html         # Frontend HTML page
+document-summariser/
+├── app/
+│   ├── routes.py           # Flask routes and Gemini summarization logic
+│   └── templates/
+│       ├── index.html      # Homepage
+│       └── result.html     # Summary display
 ├── static/
-│   └── styles.css         # CSS styling (if added)
-├── requirements.txt       # Python dependencies
-└── README.md              # Project overview
+│   └── style.css           # Optional styling
+├── .env                    # API key (not uploaded)
+├── .gitignore
+├── Procfile                # For deployment
+├── requirements.txt
+├── app.py                  # Entry point (or use routes.py inside /app)
+├── README.md
+
 ```
 
 ---
